@@ -1,0 +1,109 @@
+body{
+    background-color: #053339;
+    color:#9cc4b2;
+}
+.navbar-custom{
+    background-color: #83494D;
+}
+
+.navbar-custom .navbar-brand { 
+    color: #b79fad; 
+}
+
+#navbarNavAltMarkup .navbar-nav .navbar-text{
+    color: #b79fad; 
+}
+
+#header{
+    color:#83494D;
+    background-color:#b79fad; 
+    text-align: center;
+}
+
+.stat{
+    padding-top:30px;
+}
+
+.stat:hover .stat-winner{
+    background-color:#b79fad; 
+}
+
+.stat-box{
+    background-size: cover;
+    width:100%;
+    padding-top:80%;
+    transition-property: transform;
+    transition-duration: 0.5s;
+    
+}
+
+.stat:hover .stat-box{
+    transform: rotate(180deg);
+}
+.stat-text{
+    width:100%;
+    top:0;
+    color:#053339;
+    background-color:#9cc4b2;
+}
+
+.stat-winner{
+    color:#053339;
+    background-color:#9cc4b2;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.count{
+    float:right;
+}
+
+.list{
+    list-style:none;
+    color:#053339;
+    background-color:#9cc4b2;
+    padding-left:0;
+}
+
+.stat ul{
+    display:none;
+}
+
+.player{
+    justify-content: center;
+    border: 2px #83494D solid;
+}
+
+.player-name{
+    text-align: center;
+    border-radius: 5px;
+    background-color: #9cc4b2;
+    color:#053339;
+}
+.player-pic-div{
+    justify-content: center;
+}
+.player-pic{
+    width: 70%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+tbody tr td{
+    color:#9cc4b2;
+}
+
+thead tr th{
+    color: #b79fad; 
+}
+
+.center{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
