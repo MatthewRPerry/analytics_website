@@ -8,10 +8,10 @@ if ( !isset($_POST['winner_id']) || empty($_POST['winner_id']) ||
 	$error = "Please fill out all required fields.";
 }
 else {
-	$host = "303.itpwebdev.com";
-	$user = "perrymat_db_user";
-	$password = "uscItp2020!";
-	$db = "perrymat_final_db";
+	$host = "x";
+	$user = "x";
+	$password = "x";
+	$db = "x";
 
 	$mysqli = new mysqli($host, $user, $password, $db);
 	if ( $mysqli->errno ) {

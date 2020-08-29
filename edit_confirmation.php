@@ -1,9 +1,9 @@
 <?php
 
-$host = "303.itpwebdev.com";
-$user = "perrymat_db_user";
-$password = "uscItp2020!";
-$db = "perrymat_final_db";
+$host = "x";
+$user = "x";
+$password = "x";
+$db = "x";
 
 if( !isset($_POST['player_id']) || empty($_POST['player_id']) ) {
 	echo "Invalid Player ID";
